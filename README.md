@@ -1,8 +1,36 @@
-# React + Vite
+# React Jobs 2024
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React + Vite + Tailwind CSS starter for a jobs listing site (May 2024). The project is set up (Vite, Tailwind, ESLint) but the app itself is not built yet: `src/App.jsx` is an empty component.
 
-Currently, two official plugins are available:
+## Tech stack
+- React 18, Vite 5
+- Tailwind CSS 3.4, PostCSS, Autoprefixer
+- ESLint 8
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Requirements
+- Node.js 18 or newer and npm
+
+## Install and run
+```bash
+git clone https://github.com/KhaledShehataA/react-jobs-2024.git
+cd react-jobs-2024
+npm install
+npm run dev
+```
+Other scripts: `npm run build`, `npm run preview`, `npm run lint`.
+
+## Environment variables
+None.
+
+## Usage
+Nothing to use yet; the UI is still to be built.
+
+## Screenshots / demo
+Not available yet.
+
+## Tests
+No tests yet. `npm run lint` checks the code style.
+
+## Roadmap
+- Jobs list and job detail pages
+- Add / edit job form
